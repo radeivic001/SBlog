@@ -1,0 +1,10 @@
+﻿{% extends "layout.html" %}
+{% block content %}
+<div>
+    <small class="text-muted">
+        User's username and email
+    </small>
+</div>
+    <h1>{{ current_user.username }}</h1>
+    <h4>{{ current_user.email }}</h4>
+{% endblock content %}
